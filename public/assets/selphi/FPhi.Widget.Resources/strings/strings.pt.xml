@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <token id="loading_message">Inicializando...</token>
+
+    <!-- Buttons -->
+    <token id="button_skip">IGNORAR</token>
+    <token id="button_ready">PRONTO</token>
+    <token id="button_start">COMEÇAR</token>
+    <token id="button_audio_text">Áudio Dicas</token>
+    <token id="button_repeat">REPETIR</token>
+    <token id="button_finish">FINALIZAR</token>
+    <token id="button_next">SEGUINTE</token>
+    <token id="button_back">RETROCEDER</token>
+
+    <!-- Standard messages -->
+    <token id="start_extractor_title">Coloque seu rosto dentro&#10;do círculo. Prima o botão&#10;para começar.</token>
+    <token id="extracting_title">Permaneça quieto, com o rosto&#10;no centro do círculo</token>
+    <token id="results_message_low">Recomendamos que&#10;repita o registro</token>
+    <token id="results_message_good">O registro é bom,&#10;mas pode ser melhorado</token>
+    <token id="results_message_excellent">A qualidade do registro é&#10;excelente. Parabéns!</token>
+    <token id="results_quality_message">(Qualidade do registro)</token>
+    <token id="results_quality_low">Regular</token>
+    <token id="results_quality_good">Bom</token>
+    <token id="results_quality_excellent">Excelente</token>
+    <token id="error_message_face">Coloca tu cara en el&#10;centro do círculo</token>
+    <token id="livenessErrorGlasses">Se usar óculos, evite reflexos&#10;ao acessar na próxima vez</token>
+    <token id="livenessErrorDark">Procure um local iluminado e sem luzes&#10;de fundo quando acessar a próxima vez</token>
+    <token id="livenessErrorPerformance">O funcionamento do seu PC&#10;é mais lento do que o esperado</token>
+    <token id="livenessErrorNoMovement">Nenhum movimento foi detetado</token>
+    <token id="livenessErrorWrongDirection">Movimento errado detetado</token>
+    <token id="livenessErrorTooFar">Deva aproximar-se mais da câmera</token>
+    <token id="timeout">Excedeu o tempo máximo permitido,&#10;tente novamente</token>
+    <token id="waitRecording">Processando informações...</token>
+    
+    <!-- Stabilization stage messages -->
+    <token id="liveness_move_stabilizing">Permaneça quieto, com o rosto&#10;no centro do círculo</token>
+    <token id="liveness_move_stabilizing_ok"></token>
+    <token id="liveness_move_stabilizing_not_stabilized">Fique com o rosto&#10;virado para a frente</token>
+    <token id="liveness_move_stabilizing_not_stabilized_too_far">Aproxime o rosto</token>
+    <token id="liveness_move_stabilizing_not_stabilized_sun_glasses">Limpa o rosto&#10;completamente</token>
+    <token id="liveness_move_stabilizing_not_stabilized_too_close">Afaste o rosto</token>
+    <token id="liveness_move_stabilizing_not_stabilized_too_movement">Fique parado em frente à&#10;câmera</token>
+    <token id="liveness_move_stabilizing_not_stabilized_low_performance">Fique parado, com o seu rostro&#10;no centro do círculo</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_frontal">Fique parado, com o seu rostro&#10;no centro do círculo</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_frontal_too_left">Vire o rosto ligeiramente&#10;para a direita</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_frontal_too_right">Vire o rosto ligeiramente&#10;para a esquerda</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_frontal_too_down">Vire o rosto ligeiramente&#10;para cima</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_frontal_too_up">Vire o rosto ligeiramente&#10;para baixo</token>
+    <token id="liveness_move_stabilizing_not_stabilized_no_color">Procura de um ambiente mais&#10;luminoso</token>
+    <token id="liveness_move_stabilizing_not_stabilized_low_quality">Procura de um ambiente melhor&#10;iluminado</token>
+    <token id="liveness_move_stabilizing_not_stabilized_low_face_quality">Procura de um ambiente melhor&#10;iluminado</token>
+    <token id="liveness_move_stabilizing_not_stabilized_low_pattern_quality">Manter uma pose neutra&#10;em frente à câmara</token>
+    <token id="liveness_move_stabilizing_ok_glasses"></token>
+    <token id="liveness_move_processing">Processando imagens...</token>
+    
+</translations>

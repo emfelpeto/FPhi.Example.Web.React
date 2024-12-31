@@ -1,0 +1,43 @@
+{
+    "name": "selphi-widget-react-example",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": ".",
+    "scripts": {
+        "dev": "react-scripts start",
+        "build": "cross-env INLINE_RUNTIME_CHUNK=false CI=false react-scripts build",
+        "publish": "cross-env INLINE_RUNTIME_CHUNK=false CI=false react-scripts build",
+        "test": "react-scripts test",
+        "clean": "npm --save-dev uninstall @facephi/selphi-widget-web && npx rimraf facephi-selphi-widget-web-*.tgz && npx rimraf ./build",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@facephi/selphi-widget-web": "file:facephi-selphi-widget-web-5.43.0.tgz",
+        "@types/jest": "^29.4.2",
+        "@types/node": "^18.15.3",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "react": "18.1.0",
+        "react-dom": "18.1.0",
+        "react-scripts": "^5.0.1",
+        "typescript": "^4.9.5"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "cross-env": "7.0.3"
+    }
+}
